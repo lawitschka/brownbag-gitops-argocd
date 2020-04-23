@@ -4,6 +4,7 @@ kind: Service
 metadata:
   name: podinfo
 spec:
+  type: NodePort
   selector:
     app: podinfo
   ports:
@@ -11,4 +12,3 @@ spec:
       port: 9898
       protocol: TCP
       targetPort: http
-      type: NodePort
