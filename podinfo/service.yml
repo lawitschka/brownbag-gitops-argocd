@@ -11,3 +11,4 @@ spec:
       port: 9898
       protocol: TCP
       targetPort: http
+      type: NodePort
